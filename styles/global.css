@@ -17,7 +17,29 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
 }
+
+a {
+  text-decoration: none;
+  color: var(--global-color);
+}
+
+a:visited {
+  color: var(--global-color)
+}
+
+a:hover {
+  color: var(--font-selected-color);
+}
+
+
+div::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -40,4 +62,19 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+.dark .block {
+  display: none;
+}
+
+.dark .hidden {
+  display: block;
+}
+
+.light .block {
+  display: block;
+}
+
+.light .hidden {
+  display: none;
 }

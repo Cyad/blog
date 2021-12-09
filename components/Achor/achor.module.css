@@ -1,0 +1,10 @@
+.achor{
+    width: 200px;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 1200px){
+    .achor {
+        display: none;
+    }
+}

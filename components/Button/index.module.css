@@ -1,0 +1,4 @@
+.default-type-button {
+    background: var(--bg-color);
+    color: var(--global-color)
+}

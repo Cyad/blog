@@ -1,0 +1,17 @@
+.layout {
+    display: flex;
+    height: 100vh;
+    background: var(--bg-color);
+    color: var(--global-color);
+    padding-top: 30px;
+
+}
+.container {
+}
+.content {
+    flex: 1;
+    height: 100%;
+    overflow: scroll;
+    width: 70%;
+    border: 1px solid var(--global-color);
+}
