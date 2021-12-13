@@ -1,9 +1,14 @@
+:root {
+  --mask-bg-color: rgba(52,58,70,.8);
+}
+
 .dark {
   --bg-color: #23272f;
   --global-color: #fff;
   --font-selected-color: #087ea4;
   --tab-border-color: rgb(52,58,70);
   --theme-show: none;
+  --input-bg-color: rgb(52,58,70)
 }
 
 .light {
@@ -12,5 +17,6 @@
   --font-selected-color: #149eca;
   --tab-border-color: rgb(235,236,240);
   --theme-show: block;
+  --input-bg-color: rgb(235,236,240)
 }
   

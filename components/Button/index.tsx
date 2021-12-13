@@ -12,8 +12,12 @@ const Button: React.FC<ButtonProps> = (props) => {
 
     const { type = 'default', shape='default', onClick, children, style } = props
 
+    const typeName = type + '-type-button'
+
+    const shapeName = shape + '-shape-button'
+
     return (
-        <button className={`${type}-type-button ${shape}-shape-button`} style={style} onClick={(e) => onClick(e)}>
+        <button className={`${styles[typeName]} ${styles[shapeName]}`} style={style} onClick={(e) => onClick(e)}>
             {children}
         </button>
     )

@@ -1,6 +1,7 @@
 import Tab from '../Tab'
 import React, { useState } from 'react'
 import Icon from '../Icon'
+import Search from './components/Search/search'
 import styles from './nav.module.css'
 
 export interface NavProps {
@@ -38,6 +39,7 @@ const Nav: React.FC<NavProps> = (props) => {
                 </span>
             </div>
             <Tab active={active}/>
+            <Search />
         </div>
     )
 }
