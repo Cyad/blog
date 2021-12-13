@@ -29,7 +29,8 @@ const Search: React.FC<SearchProps> = () => {
             <Button onClick={openSearch} style={style}>
                 aaa
             </Button>
-            <Modal visible={visible} onCancel={ () => setvisible(false) }/>
+            <Modal visible={visible} onCancel={ () => setvisible(false) }>
+            </Modal>
         </>
     )
 }

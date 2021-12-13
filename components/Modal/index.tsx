@@ -46,22 +46,21 @@ const Modal:React.FC<ModaleProps> = (props) => {
     const renderLayer = (ele) => {
         const jsx =  (
             <div>
-                <div className={mask ? styles.mask : ''} onClick={ maskClosable && onCancel }>
-                    <div
-                        className={`${styles.modal}` }
-                        style={{
-                            visibility: visible ? 'visible' : 'hidden',
-                            width: cyWidth,
-                            height: cyHeight,
-                            top,
-                            left,
-                            right,
-                            bottom,
-                            zIndex,
-                            ...boxStyle
-                        }}>
-                            {children}
-                    </div>
+                <div className={mask ? styles.mask : ''} onClick={ maskClosable && onCancel } />
+                <div
+                    className={`${styles.modal}` }
+                    style={{
+                        visibility: visible ? 'visible' : 'hidden',
+                        width: cyWidth,
+                        height: cyHeight,
+                        top,
+                        left,
+                        right,
+                        bottom,
+                        zIndex,
+                        ...boxStyle
+                    }}>
+                        {children}
                 </div>
             </div>
            
