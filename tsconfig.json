@@ -5,6 +5,9 @@
     "paths": {
       "@components/*": [
         "components/*"
+      ],
+      "@route/*": [
+        "route/*"
       ]
     },
     "lib": [
@@ -29,7 +32,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/api.js"  ],
+, "pages/api.js", "components/Modal/index.jsx"  ],
   "exclude": [
     "node_modules"
   ]

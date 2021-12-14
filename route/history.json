@@ -1,0 +1,14 @@
+{
+    "title": "历史",
+    "path": "/history",
+    "routes": [
+        {
+            "title": "历史1",
+            "path": "/history/1"
+        },
+        {
+            "title": "历史2",
+            "path": "/history/2"
+        }
+    ]
+}

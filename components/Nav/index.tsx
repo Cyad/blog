@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import Icon from '../Icon'
 import Search from './components/Search/search'
 import styles from './nav.module.css'
+import RouteTree, {RouteItem} from '@components/Route'
 
 export interface NavProps {
     active?: string;
@@ -40,6 +41,7 @@ const Nav: React.FC<NavProps> = (props) => {
             </div>
             <Tab active={active}/>
             <Search />
+            <RouteTree active={active}/>
         </div>
     )
 }
