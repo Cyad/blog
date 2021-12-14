@@ -3,7 +3,7 @@
     overflow: scroll;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1024px){
     .achor {
         display: none;
     }

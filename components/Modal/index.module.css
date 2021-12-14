@@ -1,6 +1,4 @@
 .modal {
-    width: 100px;
-    height: 100px;
     position: fixed;
     background: var(--bg-color);
     top: 0;

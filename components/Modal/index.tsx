@@ -8,19 +8,21 @@ export interface ModaleProps {
     zIndex?: number; // 层级
     width?: number | string; // 宽度
     height?: number | string; // 高度
-    top?: number; // top
-    left?: number; // left
-    right?: number; // right
-    bottom?: number; // bottom
+    top?: number | 'auto'; // top
+    left?: number | 'auto'; // left
+    right?: number | 'auto'; // right
+    bottom?: number | 'auto'; // bottom
     onCancel?: () => void; // 返回按钮
     onSubmit?: () => void; // 提交按钮
     mask?: boolean; // 是否显示遮罩层
     maskClosable?: boolean; // 点击遮罩层是否关闭
+    className?: string; // className
 }
 
 const Modal:React.FC<ModaleProps> = (props) => {
 
     const { 
+        className = '',
         visible, 
         boxStyle, 
         zIndex = 101, 
@@ -48,7 +50,7 @@ const Modal:React.FC<ModaleProps> = (props) => {
             <div>
                 <div className={mask ? styles.mask : ''} onClick={ maskClosable && onCancel } />
                 <div
-                    className={`${styles.modal}` }
+                    className={`${styles.modal} ${className}` }
                     style={{
                         visibility: visible ? 'visible' : 'hidden',
                         width: cyWidth,

@@ -1,3 +1,27 @@
 .search {
-    cursor: pointer;
+    padding-top: 16px;
+}
+
+.searchText {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.button {
+    opacity: .8;
+    padding-left: 16px;
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+
+@media screen and (max-width: 1024px) {
+    .modal  {
+        width: 100vw!important;
+        height: 100vh!important;
+    }
+}
+
+.button:hover {
+    opacity: 1;
 }
