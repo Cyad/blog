@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react"
 import LearnJson from '@route/learn.json'
 import HistoryJson from '@route/history.json'
-import HomeJson from '@route/learn.json'
+import HomeJson from '@route/home.json'
+import Link from "next/link"
 
 
 export interface RouteProps {
@@ -49,9 +50,11 @@ const RouteTree = (props: RouteProps) => {
             {
                 routeList?.routes.map(item => {
                     return (
-                        <div key={item?.path}>
-                            {item?.title}
-                        </div>
+                        <Link href={item?.path} key={item?.path}>
+                            <a>
+                                {item?.title}
+                            </a>
+                        </Link>
                     )
                 })
             }

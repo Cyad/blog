@@ -1,14 +1,14 @@
 {
-    "title": "技术",
-    "path": "/learn",
+    "title": "首页",
+    "path": "/",
     "routes": [
         {
-            "title": "技术1",
+            "title": "首页1",
             "path": "/learn/1"
         },
         {
-            "title": "技术2",
-            "path": "/learn/2"
+            "title": "首页2",
+            "path": "/history/2"
         }
     ]
 }
