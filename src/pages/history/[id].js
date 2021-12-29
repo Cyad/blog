@@ -1,9 +1,9 @@
 import Layout from '@components/layout'
 import Head from 'next/head'
 
-export default function Post() {
+export default function Post({href}) {
   return (
-    <Layout active='/history'>
+    <Layout active='/history' href={href}>
       <Head>
         <title>history</title>
       </Head>
@@ -13,6 +13,5 @@ export default function Post() {
 }
 
 Post.getInitialProps = async (res) => {
-  console.log(res)
-  return {}
+  return {href: res.asPath}
 }

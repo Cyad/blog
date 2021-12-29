@@ -7,6 +7,7 @@ import RouteTree, {RouteItem} from '@components/Route'
 
 export interface NavProps {
     active?: string;
+    href?: string;
 }
 
 declare global {
@@ -17,8 +18,7 @@ declare global {
   }
 
 const Nav: React.FC<NavProps> = (props) => {
-    const { active = '/' } = props
-
+    const { active = '/', href = '/' } = props
     return (
         <div className={styles.nav}>
             <div className={styles.top_box}>
@@ -41,7 +41,7 @@ const Nav: React.FC<NavProps> = (props) => {
             </div>
             <Tab active={active}/>
             <Search />
-            <RouteTree active={active}/>
+            <RouteTree active={active} href={href}/>
         </div>
     )
 }

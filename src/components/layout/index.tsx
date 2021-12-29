@@ -8,13 +8,14 @@ import styles from './layout.module.css'
 export interface LayoutProps {
     title?: string;
     active?: string;
+    href?: string;
 }
 
 const Layout: React.FC<LayoutProps> = (props) => {
-    const { children, title, active = '/'} = props
-
+    const { children, title, active = '/', href} = props
     const NavProps = {
         active,
+        href
     }
 
     return (

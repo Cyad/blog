@@ -1,0 +1,26 @@
+{
+    "title": "首页",
+    "path": "/",
+    "routes": [
+        {
+            "title": "首页1",
+            "path": "/learn/1",
+            "routes": [
+                {
+                    "title": "首页1-1",
+                    "path": "/learn/10",
+                    "routes": [
+                        {
+                            "title": "首页1-1-1",
+                            "path": "/learn/11"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "首页2",
+            "path": "/history/2"
+        }
+    ]
+}

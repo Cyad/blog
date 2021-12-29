@@ -1,0 +1,30 @@
+{
+    "title": "技术",
+    "path": "/learn",
+    "routes": [
+        {
+            "title": "技术1",
+            "path": "/learn/1",
+            "routes": [
+                {
+                    "title": "技术1-1",
+                    "path": "/learn/10",
+                    "routes": [
+                        {
+                            "title": "技术1-1-1",
+                            "path": "/learn/11"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "技术2",
+            "path": "/learn/2"
+        },
+        {
+            "title": "技术3",
+            "path": "/learn/3"
+        }
+    ]
+}

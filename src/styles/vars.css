@@ -13,6 +13,7 @@
   --tab-border-color: rgb(52,58,70);
   --theme-show: none;
   --input-bg-color: rgb(52,58,70);
+  --bg-hightlight: rgba(88,175,223,.1);
 }
 
 .light {
@@ -23,5 +24,6 @@
   --tab-border-color: rgb(235,236,240);
   --theme-show: block;
   --input-bg-color: rgb(235,236,240);
+  --bg-hightlight: rgba(230,247,255);
 }
   
