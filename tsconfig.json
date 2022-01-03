@@ -32,7 +32,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/api.js", "components/Modal/index.jsx"  ],
+  ],
   "exclude": [
     "node_modules"
   ]

@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@codesandbox/sandpack-react": "^0.10.9",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "@zeit/next-css": "^1.0.1",
@@ -15,19 +16,17 @@
     "babel-plugin-import": "^1.13.3",
     "classnames": "^2.3.1",
     "date-fns": "^2.11.1",
-    "front-matter": "^4.0.2",
     "gray-matter": "^4.0.2",
     "immer": "^9.0.7",
     "next": "^12.0.3-canary.2",
     "next-redux-wrapper": "^7.0.5",
+    "path": "^0.12.7",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-redux": "^7.2.6",
     "redux": "^4.1.2",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.4.1",
-    "remark": "^14.0.2",
-    "remark-html": "^15.0.1"
+    "redux-thunk": "^2.4.1"
   },
   "devDependencies": {
     "typescript": "^4.5.2"

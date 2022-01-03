@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import cn from 'classnames';
 import LearnJson from '@route/learn.json'
 import HistoryJson from '@route/history.json'
 import HomeJson from '@route/home.json'
@@ -20,7 +19,6 @@ export interface RouteItem {
 
 const RouteTree = (props: RouteProps) => {
     const { active = '/', href } = props
-    console.log(href)
 
     const [ routeList, setRouteList ] = useState<RouteItem>()
 
@@ -49,7 +47,7 @@ const RouteTree = (props: RouteProps) => {
                     tree?.routes.map(item => {
                        return (
                         <div 
-                            className={item?.routes ? styles.item_menu : styles.item_menu} >
+                            className={item?.routes ? styles.item_menu : styles.item_menu} key={item.path}>
                             <Link href={item?.path} key={item?.path + item.title} >
                                 <a className={href === item.path ? `${styles.item_link} ${styles.item_link_select}` : `${styles.item_link}`} style={{paddingLeft: 10 * i}}>
                                     {item?.title}

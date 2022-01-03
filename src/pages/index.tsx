@@ -1,5 +1,7 @@
 import Layout from '@components/layout'
 import Link from 'next/link'
+import { Sandpack } from "@codesandbox/sandpack-react";
+import HeaderPage from '@components/HeaderPage';
 
 
 export default function Home() {
@@ -11,20 +13,10 @@ export default function Home() {
     }
   }
   return (
-    <Layout title={'首页'} active='/'>
-      <div> 
-      {
-        list.map(item => {
-          return (
-            <h2 style={{height: 100}} key={item.id}>
-              <Link href={`/${item.type}/${item.id}`}> 
-                <a>{item.type}-{item.id}</a>
-              </Link>
-            </h2>
-          )
-        })
-      }
-      </div>
-    </Layout>
+    <>
+      <HeaderPage />
+      <Layout title={`ChuYi's Blog`} active='/'>
+      </Layout>
+    </>
   )
 }

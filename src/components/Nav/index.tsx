@@ -1,5 +1,6 @@
 import Tab from '../Tab'
 import React, { useState } from 'react'
+import Link from 'next/link'
 import Icon from '../Icon'
 import Search from './components/Search/search'
 import styles from './nav.module.css'
@@ -10,38 +11,20 @@ export interface NavProps {
     href?: string;
 }
 
-declare global {
-    interface Window {
-      __theme: string;
-      __setPreferredTheme: (theme: string) => void;
-    }
-  }
-
 const Nav: React.FC<NavProps> = (props) => {
     const { active = '/', href = '/' } = props
     return (
         <div className={styles.nav}>
             <div className={styles.top_box}>
                 <div className={styles.logo_box}>
-                    <h1 className={styles.logo}/>
-                    <span>初一的技术博客</span>
+                    <Link href='/'>
+                        <a className={styles.logo}>ChuYi's Blog</a>
+                    </Link>
                 </div>
-                <span className={`${styles.theme} block`} 
-                    onClick={()=>{ 
-                        window.__setPreferredTheme('dark');
-                    }}>
-                    <Icon type='Moon' width={24} height={24} />
-                </span>
-                <span className={`${styles.theme} hidden`} 
-                    onClick={()=>{
-                        window.__setPreferredTheme('light');
-                    }}>
-                    <Icon type='Sun' width={24} height={24} />
-                </span>
             </div>
-            <Tab active={active}/>
-            <Search />
-            <RouteTree active={active} href={href}/>
+            {/* <Tab active={active}/> */}
+            {/* <Search /> */}
+            {/* <RouteTree active={active} href={href}/> */}
         </div>
     )
 }

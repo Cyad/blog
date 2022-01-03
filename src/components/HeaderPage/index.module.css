@@ -1,0 +1,48 @@
+.headerPage {
+    background-image: url(https://cdn.jsdelivr.net/gh/xiabor/img/Tibet/among-trees-f3-3840x2160.jpg);
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+.headerLogo {
+    color: #fff;
+    font-size: 40px;
+    cursor: default;
+    font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', Microsoft YaHei;
+    margin-bottom: 20px;
+    margin-top: -200px;
+}
+.typing {
+    height: 20px;
+    line-height: 20px;
+    width: auto;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    animation: typing 3.5s steps(15, end), blink-caret .75s step-end infinite;
+    overflow: hidden;
+}
+/* 打印效果 */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 190px; }
+}
+/* 光标闪啊闪 */
+@keyframes blink-caret {
+  from, to { box-shadow: 1px 0 0 0 transparent; }
+  50% { box-shadow: 1px 0 0 0; }
+}

@@ -1,11 +1,19 @@
 import * as React from 'react';
 import Document, {Html, Head, Main, NextScript} from 'next/document';
+import Link from 'next/link';
 
 class MyDocument extends Document {
+
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <link rel="shortcut icon" href="/public/favicon.ico" />
+        </Head>
         <body>
           <script
             dangerouslySetInnerHTML={{
@@ -49,6 +57,17 @@ class MyDocument extends Document {
           />
           <Main />
           <NextScript />
+          <script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"/>
+          <script src="https://cdn.jsdelivr.net/gh/xiabo2/CDN@latest/fish.js"/>
+          <div id='foot'>
+            <div className="foot-beian">
+              <p>©2022 &nbsp; 初一</p>
+              <Link href='https://beian.miit.gov.cn/' >
+                <a target='_blank'>浙ICP备 20023921号-2</a>
+              </Link>
+            </div>
+            <div className="container" id="jsi-flying-fish-container" />
+          </div>
         </body>
       </Html>
     );
