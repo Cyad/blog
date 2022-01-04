@@ -6,7 +6,7 @@
 }
 
 .dark {
-  --bg-color: #23272f;
+  --bg-color: rgb(35, 39, 47);
   --global-color: #fff;
   --gray-font-color: rgb(153,161,179);
   --font-selected-color: #087ea4;
@@ -16,10 +16,12 @@
   --bg-hightlight: rgba(88,175,223,.1);
   --footer-color: #666;
   --footer-background-color: rgba(0,0,0,0.7);
+  --header-background-color: rgba(35, 39, 47,0.7);
+  --opicaty: 0.7;
 }
 
 .light {
-  --bg-color: #f6f6f6;
+  --bg-color: rgb(246, 246, 246);
   --global-color: #000;
   --gray-font-color: rgb(153,161,179);
   --font-selected-color: #149eca;
@@ -29,5 +31,7 @@
   --bg-hightlight: rgba(230,247,255);
   --footer-color: #fff;
   --footer-background-color: rgba(0,0,0,0.1);
+  --header-background-color: rgba(246, 246, 246,0.1);
+  --opicaty: 0.1;
 }
   

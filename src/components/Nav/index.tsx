@@ -1,5 +1,5 @@
 import Tab from '../Tab'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Icon from '../Icon'
 import Search from './components/Search/search'
@@ -12,6 +12,34 @@ export interface NavProps {
 }
 
 const Nav: React.FC<NavProps> = (props) => {
+
+    const menu = [
+        {
+            id: 0,
+            name: '首页'
+        },
+        {
+            id: 1,
+            name: '前端'
+        },
+        {
+            id: 2,
+            name: '服务端'
+        },
+        {
+            id: 3,
+            name: '其他'
+        },
+        {
+            id: 4,
+            name: '历史'
+        }
+    ]
+
+    useEffect(()=>{
+        
+    }, [])
+
     const { active = '/', href = '/' } = props
     return (
         <div className={styles.nav}>
@@ -21,10 +49,18 @@ const Nav: React.FC<NavProps> = (props) => {
                         <a className={styles.logo}>ChuYi's Blog</a>
                     </Link>
                 </div>
+                <div className={styles.menu_box}>
+                {
+                    menu.map(item=> {
+                        return (
+                            <div key={item.id} className={styles.menu_item}>
+                                {item.name}
+                            </div>    
+                        )
+                    })
+                }
+                </div>
             </div>
-            {/* <Tab active={active}/> */}
-            {/* <Search /> */}
-            {/* <RouteTree active={active} href={href}/> */}
         </div>
     )
 }
