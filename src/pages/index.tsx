@@ -1,7 +1,6 @@
 import Layout from '@components/layout'
-import Link from 'next/link'
-import { Sandpack } from "@codesandbox/sandpack-react";
 import HeaderPage from '@components/HeaderPage';
+import List from '@components/List'
 
 
 export default function Home() {
@@ -13,10 +12,11 @@ export default function Home() {
     }
   }
   return (
-    <>
+    <div>
       <HeaderPage />
       <Layout title={`ChuYi's Blog`} active='/'>
+          <List data={[]}/>
       </Layout>
-    </>
+    </div>
   )
 }

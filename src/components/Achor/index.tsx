@@ -8,7 +8,7 @@ export interface AchorProps {
 
 const Achor: React.FC<AchorProps> = () => {
     return (
-        <div className={styles.achor}>
+        <div className={`${styles.achor}`}>
             <Author/>
         </div>
     )

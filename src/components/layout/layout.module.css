@@ -5,16 +5,24 @@
     padding-top: 30px;
 
 }
+.layout {
+    max-width: 1224px;
+    margin: 0 auto;
+}
 .content {
     flex: 1;
-    height: 100%;
-    overflow: scroll;
+    height: 100vh;
     width: 60%;
-    border: 1px solid var(--global-color);
-    padding: 0 20px;
+    transition: all 1s;
 }
 .setting {
     position: fixed;
     right: 10px;
     top: 50%;
+}
+
+@media screen and (min-width: 1024px){
+    .layout {
+        padding: 50px 5% 50px;
+    }
 }

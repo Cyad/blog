@@ -4,7 +4,7 @@ import styles from './author.module.css'
 const Author = () => {
     return (
         <section>
-            <div className={styles.author_box}>
+            <div className={`${styles.author_box} card`}>
                 <div className={styles.avatar_box}>
                     <div className={styles.author_avatar} />
                 </div>

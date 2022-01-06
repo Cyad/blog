@@ -1,7 +1,11 @@
 .author_box {
-    width: 100%;
     background: var(--bg-color);
-    color: var(--global-color)
+    color: var(--global-color);
+    margin-left: 20px;
+    transition: all 0.3s;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #fff;
 }
 
 .avatar_box {

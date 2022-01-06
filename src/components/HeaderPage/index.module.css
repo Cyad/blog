@@ -35,6 +35,7 @@
     border-right: 2px solid transparent;
     animation: typing 3.5s steps(15, end), blink-caret .75s step-end infinite;
     overflow: hidden;
+    color: #fff;
 }
 /* 打印效果 */
 @keyframes typing {

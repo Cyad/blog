@@ -1,7 +1,5 @@
 .achor{
-    width: 200px;
-    overflow: scroll;
-    height: 1000px;
+    width: 25%;
 }
 
 @media screen and (max-width: 1024px){
