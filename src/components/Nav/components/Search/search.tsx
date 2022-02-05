@@ -6,7 +6,7 @@ import Modal from '@components/Modal'
 import styles from './index.module.css'
 
 export interface SearchProps {
-
+    color?: string;
 }
 
 const style = {
@@ -17,8 +17,8 @@ const style = {
     background: 'var(--input-bg-color)',
 }
 
-const Search: React.FC<SearchProps> = () => {
-
+const Search: React.FC<SearchProps> = (props) => {
+    const { color } = props;
     const [visible, setvisible] = useState(false)
 
     const openSearch = () => {
@@ -27,15 +27,13 @@ const Search: React.FC<SearchProps> = () => {
 
     return (
         <div className={styles.search}>
-            <Button onClick={openSearch} style={style} className={styles.button}>
-                <p className={styles.searchText}>
-                    <Icon viewBox='0 0 20 20' width={16} height={16} type='Search'/>
-                    <span style={{marginLeft: 10}}>搜索</span>
-                </p>
-            </Button>
+            <div className={styles.searchText} onClick={openSearch} >
+                <Icon viewBox='0 0 20 20' width={24} height={24} type='Search' color={color || 'var(--global-color)'}/>
+            </div>
             <Modal
                 className={styles.modal}
                 right='auto'
+                left="auto"
                 width='350px'
                 height='100%'
                 boxStyle={{borderRadius: 15}}

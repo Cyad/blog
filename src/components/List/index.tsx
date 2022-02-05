@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
+import Pagination from '@components/Pagination'
 import styles from './index.module.css'
+import Link from 'next/link'
 
 interface ItemProps {
     id: number;
@@ -7,63 +9,38 @@ interface ItemProps {
     title: string;
     type: string;
     descript: string;
-    href: string;
 }
 
 interface ListProps {
     data: ItemProps[]
 }
 
-const data = [
-    {
-        id: 0,
-        img: 'https://cdn.jsdelivr.net/gh/mujin669/img/i/wallhaven-ym62z7.jpg',
-        title: 'test1',
-        type: 'fe',
-        descript: '这是一段描述',
-        href: '/fe/0'
-    },
-    {
-        id: 1,
-        img: 'https://cdn.jsdelivr.net/gh/mujin669/img/i/wallhaven-g83jz3.jpg',
-        title: 'test2',
-        type: 'fe',
-        descript: '这是一段描述',
-        href: '/fe/1'
-    },
-    {
-        id: 2,
-        img: 'https://cdn.jsdelivr.net/gh/mujin669/img/i/wallhaven-j56q3y.jpg',
-        title: 'test3',
-        type: 'fe',
-        descript: '这是一段描述',
-        href: '/fe/2'
-    }
-]
-
 const List : React.FC<ListProps> = (props) => {
+    const { data = [] } = props
     return (
         <div>
             {
-                data.map((item: ItemProps, index: number) => {
+                data.length ? data.map((item: ItemProps, index: number) => {
                     return (
-                        <div key={item.id} className={`${styles.list_box} card`}>
-                            {
-                                <>
-                                    {index%2 === 0 && <div className={styles.item_img}>
-                                        <img className={`img_card`} src={item.img}/>
-                                    </div>}
-                                    <div className={styles.item_info}>
-                                        {item.title}
-                                    </div>
-                                    {index%2 !== 0 && <div className={styles.item_img}>
-                                        <img className={`img_card`} src={item.img}/>
-                                    </div>}
-                                </>
-                            }
-                        </div>
+                        <Link href={`${item.type}/${item.id}`} key={`${item.type}/${item.id}`}>
+                            <div className={`${styles.list_box} card`}>
+                                {
+                                    <>
+                                        <div className={`${index % 2 === 1 ? styles.img_right : styles.item_img}`}>
+                                            <img className={`img_card`} src={item.img}/>
+                                        </div>
+                                        <div className={styles.item_info}>
+                                            {item.title}
+                                        </div>
+                                    </>
+                                }
+                            </div>
+                        </Link>
                     )
-                })
+                }) :
+                <div className={styles.noData}>
+                    暂无数据
+                </div>
             }
         </div>
     )

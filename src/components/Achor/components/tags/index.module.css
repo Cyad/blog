@@ -1,0 +1,31 @@
+.tags_box {
+    cursor: default;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--content-bg-color);
+    padding: 20px;
+    border-radius: 8px;
+}
+.title {
+    display: flex;
+    align-items: center;
+    background: var(--content-bg-color);
+}
+.tags_content {
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--content-bg-color);
+}
+.tags_item:nth-child(1){
+    margin-left: 20px;
+}
+.tags_item {
+    margin: 10px;
+    cursor: pointer;
+    opacity: .6;
+}
+.tags_item:hover {
+    opacity: 1;
+}

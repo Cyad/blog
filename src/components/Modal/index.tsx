@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ReactDOM from 'react-dom'
+import Link from 'next/link'
 import styles from './index.module.css'
 
 export interface ModaleProps {
@@ -43,7 +44,6 @@ const Modal:React.FC<ModaleProps> = (props) => {
     const cyHeight = typeof height === 'number' ? `${height}px` : height
 
     const [ modal, setModal] = useState(null)
-    const [ cyVisible, setCyVisible ] = useState(true)
 
     const renderLayer = (ele) => {
         const jsx =  (

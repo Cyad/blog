@@ -1,0 +1,1187 @@
+@-webkit-keyframes wrench {
+    0% {
+        -webkit-transform: rotate(-12deg);
+        transform: rotate(-12deg)
+    }
+
+    8% {
+        -webkit-transform: rotate(12deg);
+        transform: rotate(12deg)
+    }
+
+    10% {
+        -webkit-transform: rotate(24deg);
+        transform: rotate(24deg)
+    }
+
+    18% {
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg)
+    }
+
+    20% {
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg)
+    }
+
+    28% {
+        -webkit-transform: rotate(24deg);
+        transform: rotate(24deg)
+    }
+
+    30% {
+        -webkit-transform: rotate(24deg);
+        transform: rotate(24deg)
+    }
+
+    38% {
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg)
+    }
+
+    40% {
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg)
+    }
+
+    48% {
+        -webkit-transform: rotate(24deg);
+        transform: rotate(24deg)
+    }
+
+    50% {
+        -webkit-transform: rotate(24deg);
+        transform: rotate(24deg)
+    }
+
+    58% {
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg)
+    }
+
+    60% {
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg)
+    }
+
+    68% {
+        -webkit-transform: rotate(24deg);
+        transform: rotate(24deg)
+    }
+
+    100%,
+    75% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+}
+
+@keyframes wrench {
+    0% {
+        -webkit-transform: rotate(-12deg);
+        transform: rotate(-12deg)
+    }
+
+    8% {
+        -webkit-transform: rotate(12deg);
+        transform: rotate(12deg)
+    }
+
+    10% {
+        -webkit-transform: rotate(24deg);
+        transform: rotate(24deg)
+    }
+
+    18% {
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg)
+    }
+
+    20% {
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg)
+    }
+
+    28% {
+        -webkit-transform: rotate(24deg);
+        transform: rotate(24deg)
+    }
+
+    30% {
+        -webkit-transform: rotate(24deg);
+        transform: rotate(24deg)
+    }
+
+    38% {
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg)
+    }
+
+    40% {
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg)
+    }
+
+    48% {
+        -webkit-transform: rotate(24deg);
+        transform: rotate(24deg)
+    }
+
+    50% {
+        -webkit-transform: rotate(24deg);
+        transform: rotate(24deg)
+    }
+
+    58% {
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg)
+    }
+
+    60% {
+        -webkit-transform: rotate(-24deg);
+        transform: rotate(-24deg)
+    }
+
+    68% {
+        -webkit-transform: rotate(24deg);
+        transform: rotate(24deg)
+    }
+
+    100%,
+    75% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-wrench,
+.chuyi-wrench.animated,
+.chuyi-wrench.animated-hover:hover {
+    -webkit-animation: wrench 2.5s ease infinite;
+    animation: wrench 2.5s ease infinite;
+    transform-origin-x: 90%;
+    transform-origin-y: 35%;
+    transform-origin-z: initial
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-wrench.chuyi-fast,
+.chuyi-wrench.animated-hover.chuyi-fast:hover,
+.chuyi-wrench.animated.chuyi-fast {
+    -webkit-animation: wrench 1.2s ease infinite;
+    animation: wrench 1.2s ease infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-wrench.chuyi-slow,
+.chuyi-wrench.animated-hover.chuyi-slow:hover,
+.chuyi-wrench.animated.chuyi-slow {
+    -webkit-animation: wrench 3.7s ease infinite;
+    animation: wrench 3.7s ease infinite
+}
+
+@-webkit-keyframes ring {
+    0% {
+        -webkit-transform: rotate(-15deg);
+        transform: rotate(-15deg)
+    }
+
+    2% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg)
+    }
+
+    4% {
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+
+    6% {
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+
+    8% {
+        -webkit-transform: rotate(-22deg);
+        transform: rotate(-22deg)
+    }
+
+    10% {
+        -webkit-transform: rotate(22deg);
+        transform: rotate(22deg)
+    }
+
+    12% {
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+
+    14% {
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+
+    16% {
+        -webkit-transform: rotate(-12deg);
+        transform: rotate(-12deg)
+    }
+
+    18% {
+        -webkit-transform: rotate(12deg);
+        transform: rotate(12deg)
+    }
+
+    100%,
+    20% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+}
+
+@keyframes ring {
+    0% {
+        -webkit-transform: rotate(-15deg);
+        transform: rotate(-15deg)
+    }
+
+    2% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg)
+    }
+
+    4% {
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+
+    6% {
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+
+    8% {
+        -webkit-transform: rotate(-22deg);
+        transform: rotate(-22deg)
+    }
+
+    10% {
+        -webkit-transform: rotate(22deg);
+        transform: rotate(22deg)
+    }
+
+    12% {
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+
+    14% {
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+
+    16% {
+        -webkit-transform: rotate(-12deg);
+        transform: rotate(-12deg)
+    }
+
+    18% {
+        -webkit-transform: rotate(12deg);
+        transform: rotate(12deg)
+    }
+
+    100%,
+    20% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-ring,
+.chuyi-ring.animated,
+.chuyi-ring.animated-hover:hover {
+    -webkit-animation: ring 2s ease infinite;
+    animation: ring 2s ease infinite;
+    transform-origin-x: 50%;
+    transform-origin-y: 0;
+    transform-origin-z: initial
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-ring.chuyi-fast,
+.chuyi-ring.animated-hover.chuyi-fast:hover,
+.chuyi-ring.animated.chuyi-fast {
+    -webkit-animation: ring 1s ease infinite;
+    animation: ring 1s ease infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-ring.chuyi-slow,
+.chuyi-ring.animated-hover.chuyi-slow:hover,
+.chuyi-ring.animated.chuyi-slow {
+    -webkit-animation: ring 3s ease infinite;
+    animation: ring 3s ease infinite
+}
+
+@-webkit-keyframes vertical {
+    0% {
+        -webkit-transform: translate(0, -3px);
+        transform: translate(0, -3px)
+    }
+
+    4% {
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px)
+    }
+
+    8% {
+        -webkit-transform: translate(0, -3px);
+        transform: translate(0, -3px)
+    }
+
+    12% {
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px)
+    }
+
+    16% {
+        -webkit-transform: translate(0, -3px);
+        transform: translate(0, -3px)
+    }
+
+    20% {
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px)
+    }
+
+    100%,
+    22% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+}
+
+@keyframes vertical {
+    0% {
+        -webkit-transform: translate(0, -3px);
+        transform: translate(0, -3px)
+    }
+
+    4% {
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px)
+    }
+
+    8% {
+        -webkit-transform: translate(0, -3px);
+        transform: translate(0, -3px)
+    }
+
+    12% {
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px)
+    }
+
+    16% {
+        -webkit-transform: translate(0, -3px);
+        transform: translate(0, -3px)
+    }
+
+    20% {
+        -webkit-transform: translate(0, 3px);
+        transform: translate(0, 3px)
+    }
+
+    100%,
+    22% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-vertical,
+.chuyi-vertical.animated,
+.chuyi-vertical.animated-hover:hover {
+    -webkit-animation: vertical 2s ease infinite;
+    animation: vertical 2s ease infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-vertical.chuyi-fast,
+.chuyi-vertical.animated-hover.chuyi-fast:hover,
+.chuyi-vertical.animated.chuyi-fast {
+    -webkit-animation: vertical 1s ease infinite;
+    animation: vertical 1s ease infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-vertical.chuyi-slow,
+.chuyi-vertical.animated-hover.chuyi-slow:hover,
+.chuyi-vertical.animated.chuyi-slow {
+    -webkit-animation: vertical 4s ease infinite;
+    animation: vertical 4s ease infinite
+}
+
+@-webkit-keyframes horizontal {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+
+    6% {
+        -webkit-transform: translate(5px, 0);
+        transform: translate(5px, 0)
+    }
+
+    12% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+
+    18% {
+        -webkit-transform: translate(5px, 0);
+        transform: translate(5px, 0)
+    }
+
+    24% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+
+    30% {
+        -webkit-transform: translate(5px, 0);
+        transform: translate(5px, 0)
+    }
+
+    100%,
+    36% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+}
+
+@keyframes horizontal {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+
+    6% {
+        -webkit-transform: translate(5px, 0);
+        transform: translate(5px, 0)
+    }
+
+    12% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+
+    18% {
+        -webkit-transform: translate(5px, 0);
+        transform: translate(5px, 0)
+    }
+
+    24% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+
+    30% {
+        -webkit-transform: translate(5px, 0);
+        transform: translate(5px, 0)
+    }
+
+    100%,
+    36% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+}
+
+.chuyi-horizontal.animated,
+.chuyi-horizontal.animated-hover:hover,
+.chuyi-parent.animated-hover:hover>.chuyi-horizontal {
+    -webkit-animation: horizontal 2s ease infinite;
+    animation: horizontal 2s ease infinite
+}
+
+.chuyi-horizontal.animated-hover.chuyi-fast:hover,
+.chuyi-horizontal.animated.chuyi-fast,
+.chuyi-parent.animated-hover:hover>.chuyi-horizontal.chuyi-fast {
+    -webkit-animation: horizontal 1s ease infinite;
+    animation: horizontal 1s ease infinite
+}
+
+.chuyi-horizontal.animated-hover.chuyi-slow:hover,
+.chuyi-horizontal.animated.chuyi-slow,
+.chuyi-parent.animated-hover:hover>.chuyi-horizontal.chuyi-slow {
+    -webkit-animation: horizontal 3s ease infinite;
+    animation: horizontal 3s ease infinite
+}
+
+@-webkit-keyframes flash {
+
+    0%,
+    100%,
+    50% {
+        opacity: 1
+    }
+
+    25%,
+    75% {
+        opacity: 0
+    }
+}
+
+@keyframes flash {
+
+    0%,
+    100%,
+    50% {
+        opacity: 1
+    }
+
+    25%,
+    75% {
+        opacity: 0
+    }
+}
+
+.chuyi-flash.animated,
+.chuyi-flash.animated-hover:hover,
+.chuyi-parent.animated-hover:hover>.chuyi-flash {
+    -webkit-animation: flash 2s ease infinite;
+    animation: flash 2s ease infinite
+}
+
+.chuyi-flash.animated-hover.chuyi-fast:hover,
+.chuyi-flash.animated.chuyi-fast,
+.chuyi-parent.animated-hover:hover>.chuyi-flash.chuyi-fast {
+    -webkit-animation: flash 1s ease infinite;
+    animation: flash 1s ease infinite
+}
+
+.chuyi-flash.animated-hover.chuyi-slow:hover,
+.chuyi-flash.animated.chuyi-slow,
+.chuyi-parent.animated-hover:hover>.chuyi-flash.chuyi-slow {
+    -webkit-animation: flash 3s ease infinite;
+    animation: flash 3s ease infinite
+}
+
+@-webkit-keyframes bounce {
+
+    0%,
+    10%,
+    100%,
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    40% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px)
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px)
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    10%,
+    100%,
+    20%,
+    50%,
+    80% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    40% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px)
+    }
+
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px)
+    }
+}
+
+.chuyi-bounce.animated,
+.chuyi-bounce.animated-hover:hover,
+.chuyi-parent.animated-hover:hover>.chuyi-bounce {
+    -webkit-animation: bounce 2s ease infinite;
+    animation: bounce 2s ease infinite
+}
+
+.chuyi-bounce.animated-hover.chuyi-fast:hover,
+.chuyi-bounce.animated.chuyi-fast,
+.chuyi-parent.animated-hover:hover>.chuyi-bounce.chuyi-fast {
+    -webkit-animation: bounce 1s ease infinite;
+    animation: bounce 1s ease infinite
+}
+
+.chuyi-bounce.animated-hover.chuyi-slow:hover,
+.chuyi-bounce.animated.chuyi-slow,
+.chuyi-parent.animated-hover:hover>.chuyi-bounce.chuyi-slow {
+    -webkit-animation: bounce 3s ease infinite;
+    animation: bounce 3s ease infinite
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-spin,
+.chuyi-spin.animated,
+.chuyi-spin.animated-hover:hover {
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-spin.chuyi-fast,
+.chuyi-spin.animated-hover.chuyi-fast:hover,
+.chuyi-spin.animated.chuyi-fast {
+    -webkit-animation: spin .7s linear infinite;
+    animation: spin .7s linear infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-spin.chuyi-slow,
+.chuyi-spin.animated-hover.chuyi-slow:hover,
+.chuyi-spin.animated.chuyi-slow {
+    -webkit-animation: spin 2.2s linear infinite;
+    animation: spin 2.2s linear infinite
+}
+
+@-webkit-keyframes float {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    50% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px)
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+@keyframes float {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    50% {
+        -webkit-transform: translateY(-6px);
+        transform: translateY(-6px)
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+.chuyi-float.animated,
+.chuyi-float.animated-hover:hover,
+.chuyi-parent.animated-hover:hover>.chuyi-float {
+    -webkit-animation: float 2s linear infinite;
+    animation: float 2s linear infinite
+}
+
+.chuyi-float.animated-hover.chuyi-fast:hover,
+.chuyi-float.animated.chuyi-fast,
+.chuyi-parent.animated-hover:hover>.chuyi-float.chuyi-fast {
+    -webkit-animation: float 1s linear infinite;
+    animation: float 1s linear infinite
+}
+
+.chuyi-float.animated-hover.chuyi-slow:hover,
+.chuyi-float.animated.chuyi-slow,
+.chuyi-parent.animated-hover:hover>.chuyi-float.chuyi-slow {
+    -webkit-animation: float 3s linear infinite;
+    animation: float 3s linear infinite
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+
+    50% {
+        -webkit-transform: scale(.8);
+        transform: scale(.8)
+    }
+
+    100% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+
+    50% {
+        -webkit-transform: scale(.8);
+        transform: scale(.8)
+    }
+
+    100% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1)
+    }
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-pulse,
+.chuyi-pulse.animated,
+.chuyi-pulse.animated-hover:hover {
+    -webkit-animation: pulse 2s linear infinite;
+    animation: pulse 2s linear infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-pulse.chuyi-fast,
+.chuyi-pulse.animated-hover.chuyi-fast:hover,
+.chuyi-pulse.animated.chuyi-fast {
+    -webkit-animation: pulse 1s linear infinite;
+    animation: pulse 1s linear infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-pulse.chuyi-slow,
+.chuyi-pulse.animated-hover.chuyi-slow:hover,
+.chuyi-pulse.animated.chuyi-slow {
+    -webkit-animation: pulse 3s linear infinite;
+    animation: pulse 3s linear infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-shake,
+.chuyi-shake.animated,
+.chuyi-shake.animated-hover:hover {
+    -webkit-animation: wrench 2.5s ease infinite;
+    animation: wrench 2.5s ease infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-shake.chuyi-fast,
+.chuyi-shake.animated-hover.chuyi-fast:hover,
+.chuyi-shake.animated.chuyi-fast {
+    -webkit-animation: wrench 1.2s ease infinite;
+    animation: wrench 1.2s ease infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-shake.chuyi-slow,
+.chuyi-shake.animated-hover.chuyi-slow:hover,
+.chuyi-shake.animated.chuyi-slow {
+    -webkit-animation: wrench 3.7s ease infinite;
+    animation: wrench 3.7s ease infinite
+}
+
+@-webkit-keyframes tada {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    10%,
+    20% {
+        -webkit-transform: scale(.9) rotate(-8deg);
+        transform: scale(.9) rotate(-8deg)
+    }
+
+    30%,
+    50%,
+    70% {
+        -webkit-transform: scale(1.3) rotate(8deg);
+        transform: scale(1.3) rotate(8deg)
+    }
+
+    40%,
+    60% {
+        -webkit-transform: scale(1.3) rotate(-8deg);
+        transform: scale(1.3) rotate(-8deg)
+    }
+
+    100%,
+    80% {
+        -webkit-transform: scale(1) rotate(0);
+        transform: scale(1) rotate(0)
+    }
+}
+
+@keyframes tada {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    10%,
+    20% {
+        -webkit-transform: scale(.9) rotate(-8deg);
+        transform: scale(.9) rotate(-8deg)
+    }
+
+    30%,
+    50%,
+    70% {
+        -webkit-transform: scale(1.3) rotate(8deg);
+        transform: scale(1.3) rotate(8deg)
+    }
+
+    40%,
+    60% {
+        -webkit-transform: scale(1.3) rotate(-8deg);
+        transform: scale(1.3) rotate(-8deg)
+    }
+
+    100%,
+    80% {
+        -webkit-transform: scale(1) rotate(0);
+        transform: scale(1) rotate(0)
+    }
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-tada,
+.chuyi-tada.animated,
+.chuyi-tada.animated-hover:hover {
+    -webkit-animation: tada 2s linear infinite;
+    animation: tada 2s linear infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-tada.chuyi-fast,
+.chuyi-tada.animated-hover.chuyi-fast:hover,
+.chuyi-tada.animated.chuyi-fast {
+    -webkit-animation: tada 1s linear infinite;
+    animation: tada 1s linear infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-tada.chuyi-slow,
+.chuyi-tada.animated-hover.chuyi-slow:hover,
+.chuyi-tada.animated.chuyi-slow {
+    -webkit-animation: tada 3s linear infinite;
+    animation: tada 3s linear infinite
+}
+
+@-webkit-keyframes passing {
+    0% {
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        opacity: 0
+    }
+
+    50% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+        opacity: 0
+    }
+}
+
+@keyframes passing {
+    0% {
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        opacity: 0
+    }
+
+    50% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+        opacity: 0
+    }
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-passing,
+.chuyi-passing.animated,
+.chuyi-passing.animated-hover:hover {
+    -webkit-animation: passing 2s linear infinite;
+    animation: passing 2s linear infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-passing.chuyi-fast,
+.chuyi-passing.animated-hover.chuyi-fast:hover,
+.chuyi-passing.animated.chuyi-fast {
+    -webkit-animation: passing 1s linear infinite;
+    animation: passing 1s linear infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-passing.chuyi-slow,
+.chuyi-passing.animated-hover.chuyi-slow:hover,
+.chuyi-passing.animated.chuyi-slow {
+    -webkit-animation: passing 3s linear infinite;
+    animation: passing 3s linear infinite
+}
+
+@-webkit-keyframes passing-reverse {
+    0% {
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+        opacity: 0
+    }
+
+    50% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        opacity: 0
+    }
+}
+
+@keyframes passing-reverse {
+    0% {
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+        opacity: 0
+    }
+
+    50% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        opacity: 0
+    }
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-passing-reverse,
+.chuyi-passing-reverse.animated,
+.chuyi-passing-reverse.animated-hover:hover {
+    -webkit-animation: passing-reverse 2s linear infinite;
+    animation: passing-reverse 2s linear infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-passing-reverse.chuyi-fast,
+.chuyi-passing-reverse.animated-hover.chuyi-fast:hover,
+.chuyi-passing-reverse.animated.chuyi-fast {
+    -webkit-animation: passing-reverse 1s linear infinite;
+    animation: passing-reverse 1s linear infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-passing-reverse.chuyi-slow,
+.chuyi-passing-reverse.animated-hover.chuyi-slow:hover,
+.chuyi-passing-reverse.animated.chuyi-slow {
+    -webkit-animation: passing-reverse 3s linear infinite;
+    animation: passing-reverse 3s linear infinite
+}
+
+@-webkit-keyframes burst {
+    0% {
+        opacity: .6
+    }
+
+    50% {
+        -webkit-transform: scale(1.8);
+        transform: scale(1.8);
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+@keyframes burst {
+    0% {
+        opacity: .6
+    }
+
+    50% {
+        -webkit-transform: scale(1.8);
+        transform: scale(1.8);
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+.chuyi-burst.animated,
+.chuyi-burst.animated-hover:hover,
+.chuyi-parent.animated-hover:hover>.chuyi-burst {
+    -webkit-animation: burst 2s infinite linear;
+    animation: burst 2s infinite linear
+}
+
+.chuyi-burst.animated-hover.chuyi-fast:hover,
+.chuyi-burst.animated.chuyi-fast,
+.chuyi-parent.animated-hover:hover>.chuyi-burst.chuyi-fast {
+    -webkit-animation: burst 1s infinite linear;
+    animation: burst 1s infinite linear
+}
+
+.chuyi-burst.animated-hover.chuyi-slow:hover,
+.chuyi-burst.animated.chuyi-slow,
+.chuyi-parent.animated-hover:hover>.chuyi-burst.chuyi-slow {
+    -webkit-animation: burst 3s infinite linear;
+    animation: burst 3s infinite linear
+}
+
+@-webkit-keyframes falling {
+    0% {
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        opacity: 0
+    }
+
+    50% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        opacity: 0
+    }
+}
+
+@keyframes falling {
+    0% {
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        opacity: 0
+    }
+
+    50% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        opacity: 0
+    }
+}
+
+.chuyi-falling.animated,
+.chuyi-falling.animated-hover:hover,
+.chuyi-parent.animated-hover:hover>.chuyi-falling {
+    -webkit-animation: falling 2s linear infinite;
+    animation: falling 2s linear infinite
+}
+
+.chuyi-falling.animated-hover.chuyi-fast:hover,
+.chuyi-falling.animated.chuyi-fast,
+.chuyi-parent.animated-hover:hover>.chuyi-falling.chuyi-fast {
+    -webkit-animation: falling 1s linear infinite;
+    animation: falling 1s linear infinite
+}
+
+.chuyi-falling.animated-hover.chuyi-slow:hover,
+.chuyi-falling.animated.chuyi-slow,
+.chuyi-parent.animated-hover:hover>.chuyi-falling.chuyi-slow {
+    -webkit-animation: falling 3s linear infinite;
+    animation: falling 3s linear infinite
+}
+
+@-webkit-keyframes rising {
+    0% {
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        opacity: 0
+    }
+
+    50% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        opacity: 0
+    }
+}
+
+@keyframes rising {
+    0% {
+        -webkit-transform: translateY(50%);
+        transform: translateY(50%);
+        opacity: 0
+    }
+
+    50% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+
+    100% {
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        opacity: 0
+    }
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-rising,
+.chuyi-rising.animated,
+.chuyi-rising.animated-hover:hover {
+    -webkit-animation: rising 2s linear infinite;
+    animation: rising 2s linear infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-rising.chuyi-fast,
+.chuyi-rising.animated-hover.chuyi-fast:hover,
+.chuyi-rising.animated.chuyi-fast {
+    -webkit-animation: rising 1s linear infinite;
+    animation: rising 1s linear infinite
+}
+
+.chuyi-parent.animated-hover:hover>.chuyi-rising.chuyi-slow,
+.chuyi-rising.animated-hover.chuyi-slow:hover,
+.chuyi-rising.animated.chuyi-slow {
+    -webkit-animation: rising 3s linear infinite;
+    animation: rising 3s linear infinite
+}

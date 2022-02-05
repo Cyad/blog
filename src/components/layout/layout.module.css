@@ -1,27 +1,30 @@
+.layout_box {
+    background: var(--bg-color);
+}
 .layout {
     display: flex;
     background: var(--bg-color);
     color: var(--global-color);
     padding-top: 30px;
-
-}
-.layout {
     max-width: 1224px;
     margin: 0 auto;
 }
 .content {
     flex: 1;
-    height: 100vh;
-    width: 60%;
-    transition: all 1s;
 }
 .setting {
     position: fixed;
     right: 10px;
     top: 50%;
+    z-index: 11;
 }
 
 @media screen and (min-width: 1024px){
+    .layout {
+        padding: 50px 5% 50px;
+    }
+}
+@media screen and (max-width: 1024px){
     .layout {
         padding: 50px 5% 50px;
     }

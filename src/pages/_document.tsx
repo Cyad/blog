@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Document, {Html, Head, Main, NextScript} from 'next/document';
 import Link from 'next/link';
+import Achor from '@components/Achor';
 
 class MyDocument extends Document {
 

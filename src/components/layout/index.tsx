@@ -24,7 +24,7 @@ const Layout: React.FC<LayoutProps> = (props) => {
             <Head>
                 <title>{title || '初一的技术博客'}</title>
             </Head>
-            <section onScroll={()=>{console.log(1)}}>
+            <section className={styles.layout_box}>
                 <Nav {...NavProps}></Nav>
                 <div className={`${styles.layout} container`}>
                     <div className={styles.setting}>

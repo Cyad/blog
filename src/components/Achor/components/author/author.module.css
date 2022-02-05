@@ -1,0 +1,114 @@
+.author_box {
+    color: var(--global-color);
+    margin-left: 20px;
+    border-radius: 8px;
+    padding: 20px 0;
+    position: relative;
+    background: var(--content-bg-color);
+}
+
+.avatar_box {
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+}
+.author_avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url('../../../../public/images/profile.jpg');
+    background-size: 100%;
+    margin: auto;
+    cursor: pointer;
+}
+.title {
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    margin: 10px 0;
+    color: var(--global-color);
+}
+.localtion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+.local_info {
+    margin-left: 12px;
+    font-size: 16px;
+}
+.author_info {
+    width: 140px;
+    height: 120px;
+    background: red;
+    margin: 10px auto;
+}
+.type {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.type_item {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.type_title {
+    font-size: 20px;
+}
+.type_total {
+    margin:20px 0;
+    text-align: center;
+}
+.contact_info {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
+.contact_info_item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.contact_info_modal {
+    position: absolute;
+    opacity: 0;
+}
+.contact_info_item:hover .contact_info_modal {
+    transition: opacity .5s ease-in-out;
+    opacity: 1;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: var(--card-modal-color);
+    top: 38px;
+    z-index: 98;
+}
+.contact_info_modal::after {
+    border: transparent;
+}
+.contact_info_img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+.contact_info_item:hover .contact_info_modal::after{
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: calc(50% - 10px);
+    border-bottom: 4px solid var(--card-modal-color);
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 4px solid transparent;
+}

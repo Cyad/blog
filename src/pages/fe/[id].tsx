@@ -1,14 +1,20 @@
+import HeaderPage from '@components/HeaderPage'
 import Layout from '@components/layout'
 import Head from 'next/head'
+import React from 'react'
 
 export default function Post({href}) {
   return (
-    <Layout active='/history' href={href}>
+    <>
       <Head>
         <title>history</title>
       </Head>
-      history
-    </Layout>
+      <HeaderPage height={'20vh'}/>
+      <Layout active='/history' href={href}>
+        <div style={{height: 3000}}/>
+        history
+      </Layout>
+    </>
   )
 }
 

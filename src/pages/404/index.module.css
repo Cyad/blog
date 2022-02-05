@@ -1,0 +1,45 @@
+.noMatch {
+    background-image: url(https://cdn.jsdelivr.net/gh/xiabor/img/Tibet/among-trees-f3-3840x2160.jpg);
+    height: calc(100vh - 160px);
+    position: relative;
+    width: 100%;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+.noMatch_title {
+    color: #fff;
+    font-size: 40px;
+}
+.noMatch_box {
+    margin-top: 30px;
+    display: flex;
+}
+.noMatch_button {
+    background: #987ff2;
+    color: #fff;
+    padding: 10px;
+    margin: 0 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media screen and (max-width: 1024px) {
+    .noMatch_title  {
+        font-size: 20px;
+    }
+    .noMatch_button {
+        padding: 10px;
+        margin: 0 10px;
+        border-radius: 20px 5px 20px 5px ;
+        cursor: pointer;
+        color: #fff;
+        font-size: 20px;
+    }
+}

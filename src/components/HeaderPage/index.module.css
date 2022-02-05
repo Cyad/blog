@@ -1,6 +1,4 @@
 .headerPage {
-    background-image: url(https://cdn.jsdelivr.net/gh/xiabor/img/Tibet/among-trees-f3-3840x2160.jpg);
-    height: 100vh;
     position: relative;
     width: 100%;
     background-position: center center;
@@ -8,11 +6,6 @@
     -moz-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    transition: all 0.5s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +18,6 @@
     cursor: default;
     font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', Microsoft YaHei;
     margin-bottom: 20px;
-    margin-top: -200px;
 }
 .typing {
     height: 20px;
